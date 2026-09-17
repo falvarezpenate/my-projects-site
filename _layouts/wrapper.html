@@ -1,3 +1,13 @@
-<h1>Wrapper</h1>
-{{content}}
-<h1>End of Wrapper</h1>
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ site.title | default: site.title }}</title>
+	</head>
+	<body>
+        {% include header.html %}
+		{{ content }}
+        {% include footer.html %}
+	</body>
+</html>
