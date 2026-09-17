@@ -1,1 +1,10 @@
-<h1>{{site.title}}</h1>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003b71;">
+	<div class="container">
+		<a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+		<div class="ms-auto d-flex gap-3">
+			<a class="nav-link text-white" href="{{ '/' | relative_url }}">Home</a>
+
+			<a class="nav-link text-white" href="{{ '/about/' | relative_url }}">About</a>
+		</div>
+	</div>
+</nav>
