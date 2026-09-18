@@ -3,13 +3,10 @@ layout: project
 title: My Projects Site
 category: "Personal Projects"
 description: >-
-  Implemented a `console application` in `C` that simulates an `ext2 file system`
-  within a given disk in `Ubuntu`.
+  To be implemented...
 details: >-
-  Worked in a `partner programming` environment in order to achieve multiple desired
-  functionalities. These include `file and directory management` commands supported
-  include `cd, ls, mkdir, rmdir, create, read, write, cat`, as well as others.
+  To be implemented...
 repository_link: TBD
+image_path: TBD
 ---
 
-Created a static website using Jekyll and GitHub pages.

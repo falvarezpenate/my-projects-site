@@ -10,5 +10,6 @@ details: >-
     functionalities. These include `file and directory management` commands supported
     include `cd, ls, mkdir, rmdir, create, read, write, cat`, as well as others.
 repository_link: TBD
+image_path: TBD
 ---
 
