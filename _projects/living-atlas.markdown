@@ -2,6 +2,9 @@
 layout: project
 title: Living Atlas
 category: "Capstone Project"
+description: >-
+    Developed a web application that provided the <abbr title="Center for Environmental Research, Education and Outreach">CEREO</abbr> group at WSU a platform to create, read, update, and delete environmental data relating to rivers, watersheds, etc. This application facilitated data visualization through the use of a card and map system that integrated every marker on the map to its corresponding card object in order to deliver an easily accessible interface. Through the use of various categories of filtering, map legends, and multiple <abbr title="Geographic Information System">GIS</abbr> layers, my team and I were able to deliver a fully functional web application that not only met, but exceeded sponsor standards and expectations. 
+details: >-
+    As part of the front end team, I was responsible for all features relating to the mappable aspects of the <code>React</code> application. In order to implement a map that would satisfy all of the functional requirements, I used various JavaScript libraries inside of the <code>mapbox-gl</code> opensource API.Through the use of this API, I was able to achieve essential features, such as plotting markers, displaying rivers and watersheds as <abbr title="Geographic Information System">GIS</abbr> layers, card and marker integration, and polygon filtering. Using a <strong>RESTful API</strong> backend designed using various <code>Python</code> libraries, I was able to retrieve and update marker and geographical shape data from a <strong>relational database</strong> that resembled a <code>.geoJSON</code> format for storage. Then, each marker was integrated with its corresponding card, in order to facilate the navigation of large datasets and provide seamless filtering. Finally, throughout the entirity of this project, I was able to expand on my software documentation and web app deployment experience following an <strong>agile</strong> software development process working in a <strong>CI/CD pipeline</strong>. 
+repository_link: TBD
 ---
-
-Created a web application using react for the WSU CEREO dept.
