@@ -3,13 +3,9 @@ layout: project
 title: Yelp Review Sorter
 category: "Class Projects"
 description: >-
-  Implemented a `console application` in `C` that simulates an `ext2 file system`
-  within a given disk in `Ubuntu`.
+  Designed a <code>PyQt</code> application in <code>Python</code> that allows users to search for business recommendations based on user rating and review data. 
 details: >-
-  Worked in a `partner programming` environment in order to achieve multiple desired
-  functionalities. These include `file and directory management` commands supported
-  include `cd, ls, mkdir, rmdir, create, read, write, cat`, as well as others.
+  Responsible for the <strong>full stack</strong> development of the application. Created and managed the <strong>relational database</strong> through the use of <strong>ER diagrams</strong>, <strong>table relations</strong>, and parsing of real Yelp <code>.json</code> data to populate these tables. Users are able to view business details by sending <code>SQL</code> queries to a local <code>PostgreSQL</code> database using the <code>psycop2g</code> library. 
 repository_link: TBD
 ---
 
-Created a PyQt GUI that took real yelp review data and analyzed it in order to provide users with business recommendations.
