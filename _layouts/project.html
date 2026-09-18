@@ -1,5 +1,35 @@
 ---
 layout: wrapper
 ---
-<h2> {{page.title}} </h2>
 {{content}}
+<div class="container-projects rounded-4 border border-dark border-3 mb-3">
+  <div class="text-center">
+    <p class="fs-1 text-dark">{{ page.title }}</p>
+    <!-- <p class = "fs-5 text-light"> DATE ? </p> -->
+  </div>
+</div>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <strong>Description</strong>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        {{page.description | markdownify}}
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <strong>My Work + Techstack</strong>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        {{page.details | markdownify}}
+    </div>
+  </div>
+</div>
