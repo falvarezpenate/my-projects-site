@@ -3,13 +3,9 @@ layout: project
 title: Spreadsheet GUI
 category: "Class Projects"
 description: >-
-  Implemented a `console application` in `C` that simulates an `ext2 file system`
-  within a given disk in `Ubuntu`.
+  Designed and implemented a GUI for a spreadsheet application that resembles a simpler version of Microsoft Excel or Google Sheets. This application allows users to enter data, change cell properties, use formulas, and perform various arithmetic calculations. 
 details: >-
-  Worked in a `partner programming` environment in order to achieve multiple desired
-  functionalities. These include `file and directory management` commands supported
-  include `cd, ls, mkdir, rmdir, create, read, write, cat`, as well as others.
+  I was responsible for the <strong>full stack</strong> development of this application from scratch. The application was designed and implemented using <code>Windows Forms</code> in <code>.NET</code> prioritizing <strong>test-driven development</strong> and <strong>object-oriented programming</strong> principles, such as <strong>encapsulation</strong>, <strong>inheritance</strong>, and <strong>abstraction</strong> that promoted the use of clean, reusable, and maintainable code. With the use of <abbr title="test driven development">TDD</abbr>, I was able to think about the functionality of each method before it was actually implemented. This allowed me to test and refactor the implementation of my methods in a repeating cycle. I was able to demonstrate my knowledge of inheritence and abstraction by making every spreadsheet cell derive from an abstract Cell class in order to simplify complexities and focus on the essential functionality that a cell should have. Arithmetic, cell value assignment, and circular reference prevention are all handled through the use of an expression tree. The formula entered is converted into postfix notation and inserted into the tree for perform the calculation following order of operations. Whenever a reference is made to another cell, a dictionary containing all references is updated with this information. If there's no circular reference (i.e. a cell referencing its own value in a nested calculation) found in the dictionary, then the corresponding cell value is retrieved and used for the calculation. In the event that a referenced cell is changed, an event triggers that lets know all of its dependent cells to update their calculations with the new value. Additionally, I implemented functionality to edit cell color, load and save spreadsheets, and the ability for custom operator support. Spreadsheets are able to be saved and loaded through <code>xml</code> that stores the data. In order to simulate the environment in which a different developer would like to make some additions to the spreadsheet functionality, I added custom operator support via <strong>dynamic-link-libraries</strong> in order to perform more complex arithmetic. 
 repository_link: TBD
 ---
 
-Created a GUI in C# for a spreadsheet application following object oriented programming principles.
