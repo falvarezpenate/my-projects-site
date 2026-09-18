@@ -9,5 +9,3 @@ details: >-
 repository_link: TBD
 image_path: TBD
 ---
-
-Created a console app to make sorting through observation data simpler and faster. 
