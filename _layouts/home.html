@@ -1,9 +1,24 @@
 ---
 layout: wrapper
 ---
-<h2> Projects </h2>
-{% for project in site.projects %}
-  <div class="project">
-    <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
-  </div>
-{% endfor %}
+<div class="container py-4">
+    {% assign projects_by_category = site.projects | group_by: "category" %}
+    {% for category in projects_by_category %}
+      <h3 class="mt-4 mb-3">{{ category.name }}</h3>
+      <div class="row g-4">
+        {% for project in category.items %}
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm" style="background-color: #003b71;">
+              <div class="card-body">
+                <h4 class="card-title h5">
+                  <a class="stretched-link text-decoration-none text-white" href="{{ project.url | relative_url }}">
+                    {{ project.title }}
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
