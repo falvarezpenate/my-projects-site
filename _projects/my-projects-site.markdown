@@ -7,6 +7,6 @@ description: >-
 details: >-
   To be implemented...
 repository_link: TBD
-image_path: TBD
+image_path: ""
 ---
 
