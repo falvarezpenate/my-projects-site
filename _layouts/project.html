@@ -44,7 +44,11 @@ layout: wrapper
         </div>
       </div>
     {% endif %}
-
-  </div>
+  
 </div>
+{% if page.repository_link != "" %}
+<div class="text-center w-75 mx-auto mt-3 mb-3">
+  <a href="{{ page.repository_link}}" class="btn btn-dark">Code Repository</a>
+</div>
+{% endif %}
 
