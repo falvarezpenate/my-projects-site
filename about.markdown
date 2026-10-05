@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-<b>About Me</b>:
+<h4>About Me:</h4>
 
 Hey! I’m Flavio Alvarez Penate, a WSU graduate with a B.S. in Computer Science. As a developer, I focus on building useful, thoughtful projects and learning experiences.
 
-<b>My Educational Background</b>:
+<h4>My Educational Background:</h4>
 
 During my academic journey, I immersed myself in Computer Science coursework, complemented by elective studies in relational databases, reverse engineering, cybersecurity, and data science. This diversified curriculum has equipped me with the necessary toolkit for problem-solving and thinking outside of the box
 
-<b>Contact Me:</b>
+<h4>Contact Me:</h4>
 
 If you’d like to get in touch, here are the best ways to reach me:
 
